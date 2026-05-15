@@ -14,26 +14,26 @@ public class Task1 {
 
             int letterAmount = instance.length();
 
-                if (letterAmount < 4){
-                    System.out.println("Ваше имя короче 4 букв");
-                } else if (letterAmount > 4) {
-                    System.out.println("Ваше имя длиннее 4 букв");
-                } else {
-                    System.out.println("Ваше имя состоит из 4 букв");
-                }
+            if (letterAmount < 4) {
+                System.out.println("Ваше имя короче 4 букв");
+            } else if (letterAmount > 4) {
+                System.out.println("Ваше имя длиннее 4 букв");
+            } else {
+                System.out.println("Ваше имя состоит из 4 букв");
             }
+        }
         System.out.println();
         System.out.println("while-----------------------------");
         System.out.println();
 
         int i = 0;
-        while (i < strings.length){
+        while (i < strings.length) {
             String instance = strings[i];
             i++;
 
             int letterAmount = instance.length();
 
-            if (letterAmount < 4){
+            if (letterAmount < 4) {
                 System.out.println("Ваше имя короче 4 букв");
             } else if (letterAmount > 4) {
                 System.out.println("Ваше имя длиннее 4 букв");
@@ -42,19 +42,19 @@ public class Task1 {
             }
         }
 
-        i=0;
+        i = 0;
 
         System.out.println();
         System.out.println("do-while-----------------------------");
         System.out.println();
 
-        do{
+        do {
             String instance = strings[i];
             i++;
 
             int letterAmount = instance.length();
 
-            if (letterAmount < 4){
+            if (letterAmount < 4) {
                 System.out.println("Ваше имя короче 4 букв");
             } else if (letterAmount > 4) {
                 System.out.println("Ваше имя длиннее 4 букв");
@@ -62,8 +62,8 @@ public class Task1 {
                 System.out.println("Ваше имя состоит из 4 букв");
             }
         } while (i < strings.length);
-        }
     }
+}
 
 
 

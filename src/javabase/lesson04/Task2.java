@@ -9,9 +9,7 @@ public class Task2 {
             sum += array[i];
         }
 
-        int average = sum/array.length;
+        int average = sum / array.length;
         System.out.println(sum);
-
-
     }
 }
